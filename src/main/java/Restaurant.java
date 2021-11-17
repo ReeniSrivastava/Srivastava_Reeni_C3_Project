@@ -60,13 +60,13 @@ public class Restaurant {
 
     }
 //This Method will get sum of price of selected item in order.
-    /*public double getOrderValue(List<Item> orderList){
+    public double getOrderValue(List<Item> orderList){
         double orderValue = 0.0;
         for(Item item:orderList){
             orderValue = orderValue + item.getPrice();
         }
         return orderValue;
-    }*/
+    }
     private Item findItemByName(String itemName){
         for(Item item: menu) {
             if(item.getName().equals(itemName))

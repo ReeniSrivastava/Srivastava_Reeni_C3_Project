@@ -19,9 +19,9 @@ public class Item {
                 ;
     }
 
-   /* //This method will return price of item
+    //This method will return price of item
     public double getPrice() {
         return price;
     }
-*/
+
 }
